@@ -71,4 +71,4 @@ INSERT INTO Telefone  VALUES (5,4, 1, '69 4567-8901');
 
 
 -- não compreendendo o termo razão social por não ter sido bem explicado, tomei a iniciativa de considerar o nome
-select c.id as cliente_id,c.nome,t.numero as telefone from cliente c join estado e on c.estado_id = e.id join telefone t on c.id = t.cliente_id where e.nome = 'SP';_id;
+select c.id as cliente_id,c.nome,t.numero as telefone from cliente c join estado e on c.estado_id = e.id join telefone t on c.id = t.cliente_id where e.nome = 'SP';
