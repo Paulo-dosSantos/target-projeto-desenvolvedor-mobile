@@ -1,4 +1,4 @@
- #Objetivo do projeto: Responder às questões de lógica para o processo seletivo da vaga de Desenvolvedor Mobile
+ #Objetivo do projeto: Responder às questões de lógica para o processo seletivo da vagas de Desenvolvedor Mobile e Desenvolvedor Back-end, que exigem o mesmo desafio.
 
  
         ##SOLUÇÃO QUESTÃO 1: 
