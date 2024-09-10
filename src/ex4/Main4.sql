@@ -22,12 +22,11 @@ create table estado (
 
 
 );
-insert into estado values (1,'Rio de Janeiro');
-insert into estado values (2,'São Paulo');
-insert into estado values (3,'Minas Gerais');
-insert into estado values (4,'Espírito Santo');
-insert into estado values (5,'Rondônia');
-
+insert into estado values (1,'RJ');
+insert into estado values (2,'SP');
+insert into estado values (3,'MG');
+insert into estado values (4,'ES');
+insert into estado values (5,'RO');
 
 create table cliente (
 	id int not null auto_increment,
@@ -72,4 +71,4 @@ INSERT INTO Telefone  VALUES (5,4, 1, '69 4567-8901');
 
 
 -- não compreendendo o termo razão social por não ter sido bem explicado, tomei a iniciativa de considerar o nome
-select c.id as id,c.nome as nome ,t.numero as numero from Cliente c join Telefone t on c.id=t.cliente_id;
+select c.id as cliente_id,c.nome,t.numero as telefone from cliente c join estado e on c.estado_id = e.id join telefone t on c.id = t.cliente_id where e.nome = 'SP';_id;
